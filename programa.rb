@@ -37,7 +37,7 @@ while opp != 4 do
       puts "\n"
     end
     puts "\n"
-    print "Quisiera realizar otra accion en el programa?: "
+    print "Quisiera realizar otra accion en el programa?(responda un si o un no): "
     op2 = gets.chomp.to_s
     puts "\n"
     if op2 == 'si'
@@ -52,8 +52,6 @@ while opp != 4 do
       opp = gets.chomp.to_i
       puts "\n"
     elsif op2 == 'no'
-      puts "\n"
-      puts "Gracias por usar el programa RC"
       break
     end
     # ######################################
@@ -65,7 +63,7 @@ while opp != 4 do
       puts "#{value[0]} tuvo #{value.count('A')} inasistencias"
       puts "\n"
     end
-    print "Quisiera realizar otra accion en el programa?: "
+    print "Quisiera realizar otra accion en el programa?(responda un si o un no): "
     op2 = gets.chomp.to_s
     puts "\n"
     if op2 == 'si'
@@ -79,8 +77,6 @@ while opp != 4 do
       opp = gets.chomp.to_i
       puts "\n"
     elsif op2 == 'no'
-      puts "\n"
-      puts "Gracias por usar el programa RC"
       break
     end
     # ######################################
@@ -92,7 +88,7 @@ while opp != 4 do
     puts "\n"
     promedio(nota)
     puts "\n"
-    print "Quisiera realizar otra accion en el programa?: "
+    print "Quisiera realizar otra accion en el programa?(responda un si o un no): "
     op2 = gets.chomp.to_s
     puts "\n"
     if op2 == 'si'
@@ -108,8 +104,6 @@ while opp != 4 do
       opp = gets.chomp.to_i
       puts "\n"
     elsif op2 == 'no'
-      puts "\n"
-      puts "Gracias por usar el programa RC"
       break
     end
     # ######################################
